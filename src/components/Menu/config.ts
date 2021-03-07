@@ -12,21 +12,21 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance',
+        href: 'https://schrute.vercel.app',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://schrute.vercel.app/#/pool',
       },
     ],
   },
   {
-    label: 'Farms',
+    label: 'Schrute Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'Beets',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -100,11 +100,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://www.msnbc.com',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://schrutie.medium.com',
       },
     ],
   },
