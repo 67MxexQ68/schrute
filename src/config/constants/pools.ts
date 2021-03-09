@@ -21,7 +21,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 2,
     tokenName: 'DWIGHT',
-    stakingTokenName: QuoteToken.CORE,
+    stakingTokenName: QuoteToken.DWIGHT,
     stakingTokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     contractAddress: {
       97: '',
