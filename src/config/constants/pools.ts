@@ -27,7 +27,7 @@ const pools: PoolConfig[] = [
       97: '',
       56: '0x2285cb1341c05fba82ff9697fc4acbe201c9b31c',
     },
-    poolCategory: PoolCategory.DWIGHT,
+    poolCategory: PoolCategory.CORE,
     projectLink: 'https://dwight.schrute/',
     harvest: true,
     tokenPerBlock: '1',
