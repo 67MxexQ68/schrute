@@ -4,14 +4,29 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'CAKE',
+    lpSymbol: 'DWIGHT',
     lpAddresses: {
-      97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
+      97: '',
+      56: '0x2285cb1341c05fba82ff9697fc4acbe201c9b31c',
+    },
+    tokenSymbol: 'BEETS',
+    tokenAddresses: {
+      97: '',
       56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
-    tokenSymbol: 'SYRUP',
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 123,
+    lpSymbol: 'DWIGHT-BNB',
+    lpAddresses: {
+      97: '',
+      56: '0x2285cb1341c05fba82ff9697fc4acbe201c9b31c',
+    },
+    tokenSymbol: 'DWIGHT',
     tokenAddresses: {
-      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      97: '',
       56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
     quoteTokenSymbol: QuoteToken.BNB,
